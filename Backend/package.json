@@ -1,0 +1,37 @@
+{
+  "name": "petshop",
+  "version": "1.0.0",
+  "description": "Proyecto tienda virtual productos para mascotas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucarova7/PetShop.git"
+  },
+  "keywords": [
+    "Ecommerce",
+    "Shop",
+    "Pets",
+    "Products",
+    "Owners",
+    "Web",
+    "App"
+  ],
+  "author": "Luis Carlos Rodriguez Valencia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucarova7/PetShop/issues"
+  },
+  "homepage": "https://github.com/lucarova7/PetShop#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
