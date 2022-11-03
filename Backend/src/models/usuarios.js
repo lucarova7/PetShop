@@ -5,9 +5,6 @@ const usuarioSchema = new mongoose.Schema({
     nombre: {
         type: String, requiered: true
     },
-    numero_id: {
-        type: Number, requiered: true
-    },
     celular: {
         type: Number, requiered: true
     },

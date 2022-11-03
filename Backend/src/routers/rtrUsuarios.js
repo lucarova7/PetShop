@@ -7,9 +7,10 @@ router.post('/usuarios',ctrUsuarios.guardar)
 
 //Read
 router.get('/usuarios',ctrUsuarios.buscar)
+router.get('/usuarios/:nom',ctrUsuarios.buscarNombre)
 
 //Update
-// router.put('/usuarios',ctrUsuarios.modificar)
+router.put('/usuarios',ctrUsuarios.modificar)
 
 //Delete
 router.delete('/usuarios/:id',ctrUsuarios.eliminar)
